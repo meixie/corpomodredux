@@ -1,0 +1,58 @@
+﻿l_english:
+ ####################################
+ # Misc
+ ####################################
+ civic_tooltip_corporate_dominion_effects:1 "§YTrading Hubs§! produce §Y1§! additional £energy  Energy\nThe effects of §YSubject Power§! on relations is reduced by §Y50%§!, but all Subjects are allowed to expand into unclaimed systems\nStarts with the §Y$tech_space_trading$§! technology already unlocked\n§HUnlocks Ship Type:§! Private Colony Ship\n\n§RCannot close borders to non-rivals§"
+ requires_actor_not_corporate_dominion:1 "$TRIGGER_FAIL$§RWe are a §Y$civic_corporate_dominion$§! We cannot close our borders to non-rivals. Trade must flow!"
+
+ # CORPORATOCRACY (Domination Tree replacement. All changes are cosmetic right now.)
+
+
+ tradition_domination_corp:0 "Corporatocracy"
+ tradition_domination_corp_desc:0 "The galaxy - and everything and everyone within it - are merely assets to be added to our ledgers."
+ 
+ tr_corp_adopt:0 "Corporatocratic Traditions"
+ tr_corp_adopt_desc:0 "$tradition_domination_corp_desc$\n\n$tr_corp_adopt_effect$\n\n$tr_corp_finish_effect$"
+ tr_corp_adopt_effect:2 "§E$TRADITIONS_ADOPT$:§!\n§HUnlocks Diplomacy:§! Demand Vassalization\n§HUnlocks Diplomacy:§! Demand Tribute"
+ tr_corp_finish:0 "Corporatocratic Traditions Finished"
+ tr_corp_finish_effect:2 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_domination_adopt$ will mean that technology is shared between us and our §YVassals§!. Any technology, that another party does not have, will receive a §G+30%§! §Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! bonus."
+ 
+ tr_domination_colonial_viceroys_corp:0 "Executive Training Program"
+ tr_domination_colonial_viceroys_corp_desc:0 "$tr_domination_colonial_viceroys_desc$"
+ tr_domination_colonial_viceroys_corp_delayed:0 "By instituting a strict training and education regimen for our executives and CEOs, we can maximize the return on our investment in them."
+
+ tr_domination_protection_racket_corp:0 "Mandatory Insurance Clause"
+ tr_domination_protection_racket_corp_desc:0 "$tr_domination_colonial_viceroys_desc$"
+ tr_domination_protection_racket_corp_delayed:0 "It's a dangerous galaxy and our subsidiaries face many threats from outside elements. It's in their best interest to trust us with their protection, however we need to make sure we are able to maintain an adequately positive profit outlook..."
+
+ tr_domination_star_lords_corp:0 "Open Door Policy"
+ tr_domination_star_lords_corp_desc:0 "$tr_domination_star_lords_desc$"
+ tr_domination_star_lords_corp_delayed:0 "The exigencies of vertical influence over subsidiary companies can make our interactions with them seem cold and domineering. By encouraging personal relations between executives and those lower than them on the org chart, we can maximize productivity by fostering the appearance of openness and cooperation."
+
+ tr_domination_fleet_levies_corp:0 "Enhanced Asset Management"
+ tr_domination_fleet_levies_corp_desc:0 "$tr_domination_fleet_levies_desc$"
+ tr_domination_fleet_levies_corp_delayed:0 "By more directly controlling the assets of our subsidiary companies, we increase our collective return on investment in these assets. Exercising top-down control of these assets only further synergizes our collective efforts."
+
+ tr_domination_vassal_acculturation_corp:0 "Corporate Culture Management"
+ tr_domination_vassal_acculturation_corp_desc:0 "$tr_domination_vassal_acculturation$"
+ tr_domination_vassal_acculturation_corp_delayed:0 "We reap increased efficiencies and profits when we more directly manage the cultures, processes, and workflows of our subsidiaries."
+
+# Diplomatic Options
+
+ACTION_DEMAND_VASSALIZATION_TYPE:0 "Demand Subsidiarization"
+ACTION_DEMAND_VASSALIZATION_TYPE_DESC:0 "We can demand that another Empire becomes a subsidiary company."
+
+ACTION_DEMAND_TRIBUTARY_TYPE:0 "Demand Contractual Clientization"
+ACTION_DEMAND_TRIBUTARY_TYPE_DESC:0 "We can demand that they sign a service contract. If they accept, we will be unable to attack them but they will have to pay us §Y25%§! of their Mineral and Energy income."
+
+ ACTION_ASK_TO_BECOME_VASSALIZED_TYPE:0 "Request to Become Subsidiary"
+ ACTION_ASK_TO_BECOME_VASSALIZED_TYPE_DESC:0 "We can request to be the subsidiary of another Empire."
+ 
+ ACTION_ASK_TO_BECOME_TRIBUTARY_TYPE:0 "Offer to Become Client"
+ ACTION_ASK_TO_BECOME_TRIBUTARY_TYPE_DESC:0 "We can offer to sign a service contract. If they accept, they will be unable to attack us but we will have to pay them §Y25%§! of our Mineral and Energy income."
+
+ ACTION_DEMAND_VASSALIZATION_TITLE:0 "Demand Subsidiarization"
+ ACTION_DEMAND_VASSALIZATION_DESC:0 "We can demand that they permanently join our org chart as a subsidiary company."
+
+ ACTION_DEMAND_TRIBUTARY_TITLE:0 "Demand Contractural Clientization"
+ ACTION_DEMAND_TRIBUTARY_DESC:0 "We can demand that they sign a service contract. If they accept, we will be unable to attack them but they will have to pay us §Y25%§! of their Mineral and Energy income."
