@@ -36,23 +36,3 @@
  tr_domination_vassal_acculturation_corp:0 "Corporate Culture Management"
  tr_domination_vassal_acculturation_corp_desc:0 "$tr_domination_vassal_acculturation$"
  tr_domination_vassal_acculturation_corp_delayed:0 "We reap increased efficiencies and profits when we more directly manage the cultures, processes, and workflows of our subsidiaries."
-
-# Diplomatic Options
-
-ACTION_DEMAND_VASSALIZATION_TYPE:0 "Demand Subsidiarization"
-ACTION_DEMAND_VASSALIZATION_TYPE_DESC:0 "We can demand that another Empire becomes a subsidiary company."
-
-ACTION_DEMAND_TRIBUTARY_TYPE:0 "Demand Contractual Clientization"
-ACTION_DEMAND_TRIBUTARY_TYPE_DESC:0 "We can demand that they sign a service contract. If they accept, we will be unable to attack them but they will have to pay us §Y25%§! of their Mineral and Energy income."
-
- ACTION_ASK_TO_BECOME_VASSALIZED_TYPE:0 "Request to Become Subsidiary"
- ACTION_ASK_TO_BECOME_VASSALIZED_TYPE_DESC:0 "We can request to be the subsidiary of another Empire."
- 
- ACTION_ASK_TO_BECOME_TRIBUTARY_TYPE:0 "Offer to Become Client"
- ACTION_ASK_TO_BECOME_TRIBUTARY_TYPE_DESC:0 "We can offer to sign a service contract. If they accept, they will be unable to attack us but we will have to pay them §Y25%§! of our Mineral and Energy income."
-
- ACTION_DEMAND_VASSALIZATION_TITLE:0 "Demand Subsidiarization"
- ACTION_DEMAND_VASSALIZATION_DESC:0 "We can demand that they permanently join our org chart as a subsidiary company."
-
- ACTION_DEMAND_TRIBUTARY_TITLE:0 "Demand Contractural Clientization"
- ACTION_DEMAND_TRIBUTARY_DESC:0 "We can demand that they sign a service contract. If they accept, we will be unable to attack them but they will have to pay us §Y25%§! of their Mineral and Energy income."

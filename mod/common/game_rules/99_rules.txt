@@ -336,10 +336,6 @@ can_release_vassal = {
 		NOT = { has_valid_civic = civic_hive_devouring_swarm }
 	}
 	custom_tooltip = {
-		fail_text = requires_domination_adopted
-		has_subjugation_req = yes
-	}
-	custom_tooltip = {
 		fail_text = CANNOT_RELEASE_CULTURE_SHOCK
 		root = {
 			NOT = {
